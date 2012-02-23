@@ -1,0 +1,164 @@
+// CUP specification for a simple expression evaluator (w/ actions)
+
+import java_cup.runtime.*;
+
+/* Preliminaries to set up and use the scanner.  */
+
+/* Terminals (tokens returned by the scanner). */
+terminal BYTE, SHORT, INT, LONG, CHAR; // integral_type
+terminal LBRACK, RBRACK; // array_type
+terminal SEMICOLON, MULT, COMMA, LBRACE, RBRACE, EQ, LPAREN, RPAREN, COLON;
+terminal VOID; // method_header
+terminal IF, ELSE; // if_then_statement, if_then_else_statement
+terminal DO, WHILE; // while_statement, do_statement
+terminal FOR; // for_statement
+terminal BREAK; // break_statement
+terminal CONTINUE; // continue_statement
+terminal RETURN; // return_statement
+terminal PLUSPLUS; // postincrement_expression
+terminal MINUSMINUS; // postdecrement_expression
+terminal PLUS, MINUS, COMP, NOT, DIV, MOD;
+terminal LSHIFT, RSHIFT; // shift_expression
+terminal LT, GT, LTEQ, GTEQ; // relational_expression
+terminal EQEQ, NOTEQ; // equality_expression
+terminal AND; // and_expression
+terminal XOR; // exclusive_or_expression
+terminal OR;  // inclusive_or_expression
+terminal ANDAND; // conditional_and_expression
+terminal OROR; // conditional_or_expression
+terminal QUESTION; // conditional_expression
+terminal MULTEQ, DIVEQ, MODEQ, PLUSEQ, MINUSEQ; // assignment_operator
+terminal LSHIFTEQ, RSHIFTEQ; // assignment_operator
+terminal ANDEQ, XOREQ, OREQ; // assignment_operator
+terminal GOTO; //goto_statement
+
+terminal java.lang.Number INTEGER_LITERAL;
+terminal java.lang.Character CHARACTER_LITERAL;
+terminal java.lang.String STRING_LITERAL;
+terminal java.lang.String IDENTIFIER; // name
+
+/* Non-terminals */non terminal  abstract_declarator;
+non terminal  pointer;
+non terminal  direct_abstract_declarator;
+non terminal  additive_expr;
+non terminal  multiplicative_expr;
+non terminal  add_op;
+non terminal  address_expr;
+non terminal  cast_expr;
+non terminal  array_declarator;
+non terminal  direct_declarator;
+non terminal  constant_expr_opt;
+non terminal  assignment_expr;
+non terminal  conditional_expr;
+non terminal  unary_expr;
+non terminal  assignment_op;
+non terminal  bitwise_and_expr;
+non terminal  equality_expr;
+non terminal  bitwise_negation_expr;
+non terminal  bitwise_or_expr;
+non terminal  bitwise_xor_expr;
+non terminal  break_statement;
+non terminal  type_name;
+non terminal  translation_unit;
+non terminal  c_char;
+non terminal  c_char_sequence;
+non terminal  character_constant;
+non terminal  character_escape_code;
+non terminal  character_type_specifier;
+non terminal  comma_expr;
+non terminal  compound_statement;
+non terminal  declaration_or_statement_list_opt;
+non terminal  expr;
+non terminal  conditional_statement;
+non terminal  if_statement;
+non terminal  if_else_statement;
+non terminal  constant;
+non terminal  integer_constant;
+non terminal  string_constant;
+non terminal  constant_expr;
+non terminal  continue_statement;
+non terminal  decl;
+non terminal  declaration_specifiers;
+non terminal  initialized_declarator_list;
+non terminal  declaration_or_statement;
+non terminal  statement;
+non terminal  declaration_or_statement_list;
+non terminal  type_specifier;
+non terminal  pointer_declarator;
+non terminal  digit;
+non terminal  digit_sequence;
+non terminal  direct_abstract_declarator_opt;
+non terminal  parameter_type_list_opt;
+non terminal  simple_declarator;
+non terminal  declarator;
+non terminal  function_declarator;
+non terminal  do_statement;
+non terminal  relational_expr;
+non terminal  equality_op;
+non terminal  escape_char;
+non terminal  escape_code;
+non terminal  expression_list;
+non terminal  expression_statement;
+non terminal  expression;
+non terminal  for_expr;
+non terminal  initial_clause_opt;
+non terminal  expr_opt;
+non terminal  for_statement;
+non terminal  function_call;
+non terminal  postfix_expr;
+non terminal  expression_list_opt;
+non terminal  parameter_type_list;
+non terminal  function_definition;
+non terminal  function_def_specifier;
+non terminal  declaration_specifiers_opt;
+non terminal  goto_statement;
+non terminal  named_label;
+non terminal  indirection_expr;
+non terminal  initial_clause;
+non terminal  initialized_declarator;
+non terminal  integer_type_specifier;
+non terminal  signed_type_specifier;
+non terminal  unsigned_type_specifier;
+non terminal  iterative_statement;
+non terminal  while_statement;
+non terminal  label;
+non terminal  labeled_statement;
+non terminal  logical_and_expr;
+non terminal  logical_negation_expr;
+non terminal  logical_or_expr;
+non terminal  mult_op;
+non terminal  nondigit;
+non terminal  nonzero_digit;
+non terminal  parameter_decl;
+non terminal  abstract_declarator_opt;
+non terminal  parameter_list;
+non terminal  paranthesized_expr;
+non terminal  pointer_decl;
+non terminal  postdecrement_expr;
+non terminal  primary_expr;
+non terminal  subscript_expr;
+non terminal  postincrement_expr;
+non terminal  predecrement_expr;
+non terminal  preincrement_expr;
+non terminal  shift_expr;
+non terminal  relational_op;
+non terminal  return_statement;
+non terminal  shift_op;
+non terminal  null_statement;
+non terminal  top_level_decl;
+non terminal  unary_minus_expr;
+non terminal  unary_plus_expr;
+non terminal  void_type_specifier;
+
+
+/* Precedences */
+
+/* The grammar */
+start with translation_unit;
+
+translation_unit	::= top_level_decl:td
+										{: RESULT = new TreeNodeList(td, null); :}
+						| translation_unit:tu top_level_decl:td
+						 				{: RESULT = new TreeNodeList(tu, td); :}
+						 ;
+top_level_decl		::= 					 

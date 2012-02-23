@@ -1,0 +1,8 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cup</groupId>
+	<artifactId>java-cup</artifactId>
+	<version>1.0</version>
+	<name>java-cup</name>
+	<description>Java CUP Parser Generator</description>
+</project>
