@@ -1,0 +1,303 @@
+Line: 0	Type: NUMCONST	Text: 0	NumberType: INT	Value: 0
+Line: 0	Type: NUMCONST	Text: 1	NumberType: INT	Value: 1
+Line: 0	Type: NUMCONST	Text: 2	NumberType: INT	Value: 2
+Line: 0	Type: NUMCONST	Text: 3	NumberType: INT	Value: 3
+Line: 0	Type: NUMCONST	Text: 4	NumberType: INT	Value: 4
+Line: 0	Type: NUMCONST	Text: 5	NumberType: INT	Value: 5
+Line: 0	Type: NUMCONST	Text: 6	NumberType: INT	Value: 6
+Line: 0	Type: NUMCONST	Text: 7	NumberType: INT	Value: 7
+Line: 0	Type: NUMCONST	Text: 8	NumberType: INT	Value: 8
+Line: 0	Type: NUMCONST	Text: 9	NumberType: INT	Value: 9
+Line: 2	Type: IDENT	Text: a	Id: a
+Line: 2	Type: IDENT	Text: b	Id: b
+Line: 2	Type: IDENT	Text: c	Id: c
+Line: 2	Type: IDENT	Text: d	Id: d
+Line: 2	Type: IDENT	Text: e	Id: e
+Line: 2	Type: IDENT	Text: f	Id: f
+Line: 2	Type: IDENT	Text: g	Id: g
+Line: 2	Type: IDENT	Text: h	Id: h
+Line: 2	Type: IDENT	Text: i	Id: i
+Line: 2	Type: IDENT	Text: j	Id: j
+Line: 2	Type: IDENT	Text: k	Id: k
+Line: 2	Type: IDENT	Text: l	Id: l
+Line: 2	Type: IDENT	Text: m	Id: m
+Line: 2	Type: IDENT	Text: n	Id: n
+Line: 2	Type: IDENT	Text: o	Id: o
+Line: 2	Type: IDENT	Text: p	Id: p
+Line: 2	Type: IDENT	Text: q	Id: q
+Line: 2	Type: IDENT	Text: r	Id: r
+Line: 2	Type: IDENT	Text: s	Id: s
+Line: 2	Type: IDENT	Text: t	Id: t
+Line: 2	Type: IDENT	Text: u	Id: u
+Line: 2	Type: IDENT	Text: w	Id: w
+Line: 2	Type: IDENT	Text: x	Id: x
+Line: 2	Type: IDENT	Text: y	Id: y
+Line: 2	Type: IDENT	Text: z	Id: z
+Line: 4	Type: IDENT	Text: A	Id: A
+Line: 4	Type: IDENT	Text: B	Id: B
+Line: 4	Type: IDENT	Text: C	Id: C
+Line: 4	Type: IDENT	Text: D	Id: D
+Line: 4	Type: IDENT	Text: E	Id: E
+Line: 4	Type: IDENT	Text: F	Id: F
+Line: 4	Type: IDENT	Text: G	Id: G
+Line: 4	Type: IDENT	Text: H	Id: H
+Line: 4	Type: IDENT	Text: I	Id: I
+Line: 4	Type: IDENT	Text: J	Id: J
+Line: 4	Type: IDENT	Text: K	Id: K
+Line: 4	Type: IDENT	Text: L	Id: L
+Line: 4	Type: IDENT	Text: M	Id: M
+Line: 4	Type: IDENT	Text: N	Id: N
+Line: 4	Type: IDENT	Text: O	Id: O
+Line: 4	Type: IDENT	Text: P	Id: P
+Line: 4	Type: IDENT	Text: Q	Id: Q
+Line: 4	Type: IDENT	Text: R	Id: R
+Line: 4	Type: IDENT	Text: S	Id: S
+Line: 4	Type: IDENT	Text: T	Id: T
+Line: 4	Type: IDENT	Text: U	Id: U
+Line: 4	Type: IDENT	Text: V	Id: V
+Line: 4	Type: IDENT	Text: W	Id: W
+Line: 4	Type: IDENT	Text: X	Id: X
+Line: 4	Type: IDENT	Text: Y	Id: Y
+Line: 4	Type: IDENT	Text: Z	Id: Z
+Line: 6	Type: OPERTR	Text: !	Operator: NEGATION
+Line: 7	Type: OPERTR	Text: +	Operator: PLUS
+*******************************************************************************
+Line: 8	Type: STRCONST	Text: "laskjlk"	Length: 7
+Value: laskjlk
+*******************************************************************************
+Line: 10	Type: OPERTR	Text: =	Operator: EQUAL
+Line: 11	Type: SEPARTR	Text: {	Separator: LBRACE
+Line: 12	Type: OPERTR	Text: %	Operator: MOD
+Line: 13	Type: OPERTR	Text: ~	Operator: COMPLEMENT
+Line: 14	Type: SEPARTR	Text: }	Separator: RBRACE
+Line: 15	Type: OPERTR	Text: ^	Operator: XOR
+Line: 16	Type: SEPARTR	Text: [	Separator: LBRACK
+Line: 17	Type: SEPARTR	Text: ,	Separator: COMMA
+Line: 18	Type: OPERTR	Text: &	Operator: AND
+Line: 19	Type: SEPARTR	Text: ]	Separator: RBRACK
+Line: 21	Type: OPERTR	Text: *	Operator: MULT
+Line: 22	Type: OPERTR	Text: /	Operator: DIV
+Line: 23	Type: OPERTR	Text: <	Operator: LTHAN
+Line: 24	Type: SEPARTR	Text: (	Separator: LPAREN
+Line: 25	Type: OPERTR	Text: |	Operator: OR
+Line: 26	Type: OPERTR	Text: >	Operator: GTHAN
+Line: 27	Type: SEPARTR	Text: )	Separator: RPAREN
+Line: 28	Type: SEPARTR	Text: ;	Separator: SEMICOLON
+*******************************************************************************
+Line: 29	Type: CHARCONST	Text: '\t'
+Value: 	
+*******************************************************************************
+Line: 30	Type: OPERTR	Text: -	Operator: MINUS
+Line: 31	Type: SEPARTR	Text: :	Separator: COLON
+Line: 32	Type: OPERTR	Text: ?	Operator: QUESTION
+Line: 33	Type: IDENT	Text: _	Id: _
+*******************************************************************************
+Line: 35	Type: STRCONST	Text: "me`@y'a$ho#o.com"	Length: 16
+Value: me`@y'a$ho#o.com
+*******************************************************************************
+*******************************************************************************
+Line: 37	Type: STRCONST	Text: " /t /v /n /r "	Length: 13
+Value:  /t /v /n /r 
+*******************************************************************************
+Line: 43	Type: IDENT	Text: dsjfsk	Id: dsjfsk
+Line: 45	Type: IDENT	Text: h76567	Id: h76567
+Line: 47	Type: NUMCONST	Text: 6	NumberType: INT	Value: 6
+Line: 47	Type: IDENT	Text: jhgjh	Id: jhgjh
+Line: 49	Type: IDENT	Text: _jhgj	Id: _jhgj
+Line: 51	Type: IDENT	Text: _87678	Id: _87678
+Line: 55	Type: RWORD	Text: do	ResWord: do
+Line: 56	Type: RWORD	Text: for	ResWord: for
+Line: 57	Type: RWORD	Text: return	ResWord: return
+Line: 58	Type: RWORD	Text: break	ResWord: break
+Line: 59	Type: RWORD	Text: short	ResWord: short
+Line: 60	Type: RWORD	Text: else	ResWord: else
+Line: 61	Type: RWORD	Text: goto	ResWord: goto
+Line: 62	Type: RWORD	Text: signed	ResWord: signed
+Line: 63	Type: NUMCONST	Text: 789769876	NumberType: LONG	Value: 789769876
+Line: 63	Type: IDENT	Text: ulnsigned	Id: ulnsigned
+Line: 64	Type: RWORD	Text: char	ResWord: char
+Line: 65	Type: RWORD	Text: if	ResWord: if
+Line: 66	Type: RWORD	Text: void	ResWord: void
+Line: 67	Type: RWORD	Text: int	ResWord: int
+Line: 68	Type: RWORD	Text: continue	ResWord: continue
+Line: 69	Type: RWORD	Text: long	ResWord: long
+Line: 70	Type: RWORD	Text: while	ResWord: while
+Line: 73	Type: OPERTR	Text: !	Operator: NEGATION
+Line: 73	Type: OPERTR	Text: %	Operator: MOD
+Line: 73	Type: OPERTR	Text: ^	Operator: XOR
+Line: 73	Type: OPERTR	Text: &	Operator: AND
+Line: 73	Type: OPERTR	Text: *	Operator: MULT
+Line: 73	Type: OPERTR	Text: -	Operator: MINUS
+Line: 73	Type: OPERTR	Text: +	Operator: PLUS
+Line: 73	Type: OPERTR	Text: =	Operator: EQUAL
+Line: 73	Type: OPERTR	Text: ~	Operator: COMPLEMENT
+Line: 73	Type: OPERTR	Text: |	Operator: OR
+Line: 73	Type: OPERTR	Text: <	Operator: LTHAN
+Line: 73	Type: OPERTR	Text: >	Operator: GTHAN
+Line: 73	Type: OPERTR	Text: /	Operator: DIV
+Line: 73	Type: OPERTR	Text: ?	Operator: QUESTION
+Line: 76	Type: OPERTR	Text: +=	Operator: PLUSEQ
+Line: 76	Type: OPERTR	Text: -=	Operator: MINUSEQ
+Line: 76	Type: OPERTR	Text: *=	Operator: MULTEQ
+Line: 76	Type: OPERTR	Text: /=	Operator: DIVEQ
+Line: 76	Type: OPERTR	Text: %=	Operator: MODEQ
+Line: 76	Type: OPERTR	Text: <<=	Operator: LSHIFTEQ
+Line: 76	Type: OPERTR	Text: >>=	Operator: RSHIFTEQ
+Line: 76	Type: OPERTR	Text: &=	Operator: ANDEQ
+Line: 76	Type: OPERTR	Text: ^=	Operator: XOREQ
+Line: 76	Type: OPERTR	Text: |=	Operator: OREQ
+Line: 79	Type: OPERTR	Text: ++	Operator: PLUSPLUS
+Line: 79	Type: OPERTR	Text: --	Operator: MINUSMINUS
+Line: 79	Type: OPERTR	Text: <<	Operator: LSHIFT
+Line: 79	Type: OPERTR	Text: >>	Operator: RSHIFT
+Line: 79	Type: OPERTR	Text: <=	Operator: LTEQ
+Line: 79	Type: OPERTR	Text: >=	Operator: GTEQ
+Line: 79	Type: OPERTR	Text: ==	Operator: EQEQ
+Line: 79	Type: OPERTR	Text: !=	Operator: NOTEQ
+Line: 79	Type: OPERTR	Text: &&	Operator: LOGICAND
+Line: 79	Type: OPERTR	Text: ||	Operator: LOGICOR
+Line: 82	Type: SEPARTR	Text: (	Separator: LPAREN
+Line: 82	Type: SEPARTR	Text: )	Separator: RPAREN
+Line: 82	Type: SEPARTR	Text: [	Separator: LBRACK
+Line: 82	Type: SEPARTR	Text: ]	Separator: RBRACK
+Line: 82	Type: SEPARTR	Text: {	Separator: LBRACE
+Line: 82	Type: SEPARTR	Text: }	Separator: RBRACE
+Line: 82	Type: SEPARTR	Text: ,	Separator: COMMA
+Line: 82	Type: SEPARTR	Text: ;	Separator: SEMICOLON
+Line: 82	Type: SEPARTR	Text: :	Separator: COLON
+Line: 86	Type: NUMCONST	Text: 6767	NumberType: INT	Value: 6767
+Line: 87	Type: NUMCONST	Text: 326498724	NumberType: LONG	Value: 326498724
+*******************************************************************************
+Line: 90	Type: CHARCONST	Text: '2'
+Value: 2
+*******************************************************************************
+*******************************************************************************
+Line: 91	Type: CHARCONST	Text: 'a'
+Value: a
+*******************************************************************************
+*******************************************************************************
+Line: 92	Type: CHARCONST	Text: '\t'
+Value: 	
+*******************************************************************************
+*******************************************************************************
+Line: 93	Type: CHARCONST	Text: '\n'
+Value: 
+
+*******************************************************************************
+*******************************************************************************
+Line: 94	Type: CHARCONST	Text: '\b'
+Value: 
+*******************************************************************************
+*******************************************************************************
+Line: 95	Type: CHARCONST	Text: '\r'
+Value: 
+*******************************************************************************
+*******************************************************************************
+Line: 96	Type: CHARCONST	Text: '\f'
+Value: 
+*******************************************************************************
+*******************************************************************************
+Line: 97	Type: CHARCONST	Text: '\v'
+Value: 
+*******************************************************************************
+*******************************************************************************
+Line: 98	Type: CHARCONST	Text: '\\'
+Value: \
+*******************************************************************************
+*******************************************************************************
+Line: 99	Type: CHARCONST	Text: '\''
+Value: '
+*******************************************************************************
+*******************************************************************************
+Line: 100	Type: CHARCONST	Text: '\"'
+Value: "
+*******************************************************************************
+*******************************************************************************
+Line: 101	Type: CHARCONST	Text: '\a'
+Value: 
+*******************************************************************************
+*******************************************************************************
+Line: 102	Type: CHARCONST	Text: '\?'
+Value: ?
+*******************************************************************************
+*******************************************************************************
+Line: 103	Type: CHARCONST	Text: '\101'
+Value: A
+*******************************************************************************
+*******************************************************************************
+Line: 107	Type: STRCONST	Text: "3825jh"	Length: 6
+Value: 3825jh
+*******************************************************************************
+*******************************************************************************
+Line: 109	Type: STRCONST	Text: "sj;asd2"	Length: 7
+Value: sj;asd2
+*******************************************************************************
+*******************************************************************************
+Line: 110	Type: STRCONST	Text: "sj;asda"	Length: 7
+Value: sj;asda
+*******************************************************************************
+*******************************************************************************
+Line: 111	Type: STRCONST	Text: "sj;asd\t"	Length: 7
+Value: sj;asd	
+*******************************************************************************
+*******************************************************************************
+Line: 112	Type: STRCONST	Text: "sj;asd\n"	Length: 7
+Value: sj;asd
+
+*******************************************************************************
+*******************************************************************************
+Line: 113	Type: STRCONST	Text: "sj;asd\b"	Length: 7
+Value: sj;asd
+*******************************************************************************
+*******************************************************************************
+Line: 114	Type: STRCONST	Text: "sj;asd\r"	Length: 7
+Value: sj;asd
+*******************************************************************************
+*******************************************************************************
+Line: 115	Type: STRCONST	Text: "sj;asd\f"	Length: 7
+Value: sj;asd
+*******************************************************************************
+*******************************************************************************
+Line: 116	Type: STRCONST	Text: "sj;asd\v"	Length: 7
+Value: sj;asd
+*******************************************************************************
+*******************************************************************************
+Line: 117	Type: STRCONST	Text: "sj;asd\\"	Length: 7
+Value: sj;asd\
+*******************************************************************************
+*******************************************************************************
+Line: 118	Type: STRCONST	Text: "sj;asd\""	Length: 7
+Value: sj;asd"
+*******************************************************************************
+*******************************************************************************
+Line: 119	Type: STRCONST	Text: "sj;asd\""	Length: 7
+Value: sj;asd"
+*******************************************************************************
+*******************************************************************************
+Line: 120	Type: STRCONST	Text: "sj;asd\a"	Length: 7
+Value: sj;asd
+*******************************************************************************
+*******************************************************************************
+Line: 121	Type: STRCONST	Text: "sj;asd\?"	Length: 7
+Value: sj;asd?
+*******************************************************************************
+*******************************************************************************
+Line: 122	Type: STRCONST	Text: "sj'`;asd\101"	Length: 9
+Value: sj'`;asdA
+*******************************************************************************
+Line: 125	Type: IDENT	Text: abbaface	Id: abbaface
+Line: 134	Type: OPERTR	Text: *	Operator: MULT
+Line: 134	Type: OPERTR	Text: /	Operator: DIV
+Line: 136	Type: NUMCONST	Text: 1425	NumberType: INT	Value: 1425
+*******LEXER TOKENS SUMMARY*******
+STRCONST   	-	18
+IDENT   	-	59
+NUMCONST   	-	15
+CHARCONST   	-	15
+SEPARTR   	-	18
+RWORD   	-	15
+COMMENT   	-	39
+WSPACE   	-	438
+OPERTR   	-	50
+COMMENT & WSPACE are only 'counted'
+**********************************
